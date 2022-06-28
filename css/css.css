@@ -1,0 +1,380 @@
+/* HEADER*/
+
+
+header{
+background-color:#6b6055;
+padding-top:10px;
+padding-bottom:10px;
+border-bottom: 3px solid white;
+overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0px; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+
+}
+header nav ul{
+margin:50px;
+padding-bottom:60px;
+position: absolute;
+right:20px;
+top: 50pt;
+font-size:20px; 
+float:right;
+}
+header nav li{
+display:inline;
+}
+nav a{
+color:white;
+text-decoration:none;
+border: 1px solid white;
+padding: 5px 20px;
+}
+ nav a:hover{
+background-color: white;
+color:#a3722f;
+font-weight: bold;
+font-size:30px;}
+
+
+
+
+footer {
+ 
+  left: 0;
+  bottom: 400px;
+  width: 100%;
+ height: 0.8%;
+  background-color: #6b6055;
+  color: white;
+  text-align: center;
+  overflow: auto;
+}
+
+
+/* PAGES*/
+body{
+background-color:#f9f6ef;
+ font-family: Arial;
+margin: 0;
+}
+#body{
+  
+  text-align: center;
+}
+
+figure{
+border:20pt solid  #A8AA8;
+background-color:#6b6055;
+padding:50px;
+width:300px;
+font-color:white;
+float: left;
+margin-left:14%;
+margin-top: 8%;
+
+
+}
+ figcaption  { 
+ font-family: Cambria, Georgia, "Times New Roman", serif; 
+ color:white;
+ font-weight:bold;
+ text-align:center;
+ padding-top:10px;
+ }
+ figure figcaption p {
+color:black;
+text-align:center;
+font-size: 10pt;
+ }
+ h1{
+padding-top: 100px;
+text-align:center;
+font-color:#6b6055;
+font-size: 60px;
+color:#6b6055;
+font-family:chalkduster;
+}
+h3{
+padding-bottom:3%; 
+color:red;
+}
+.line{
+font-size: 40px;
+text-align:center;
+}
+}
+
+
+p{
+padding-top: 40px;
+text-align:center;
+color:#6b6055;
+font-size: 40px;
+}
+.figcaption{
+padding-top: 40px;
+text-align:center;
+color:#6b6055;
+font-size: 40px;
+}
+.price{
+text-align:center;
+color:white;
+font-size: 10pt;
+}
+.menu1{
+padding-top:100px;
+padding-left:50px;
+
+}
+table{
+  margin-left:20%;
+  margin-top: 3%;
+  text-align: center;
+  width:60%;
+  border-collapse: collapse; 
+}
+table {
+  border:1pt solid #6b6055;
+  height: 100px;
+}
+caption{
+  color: #6b6055;
+  font-size: 30px;
+}
+td:hover{
+  background-color:  #6b6055;
+}
+
+#top_button {
+  &:hover {
+    background-color: lighten(green, 5%);
+    cursor: pointer;
+    cursor: hand;
+  }
+ 
+
+
+
+
+
+
+
+
+/* log in */
+
+.bg-modal ,.sign-modal{
+    
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.7);
+    position :absolute;
+    top:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+    
+}
+
+.modal-content{
+    
+    width:20%;
+    height:50%;
+    background-color:white;
+    border-radius: 15px;
+    text-align: center;
+    padding:2%;
+    position:relative;
+    top:20%;
+    left:38%;
+    
+    } 
+
+
+.smodal-content{
+    
+     width:38%;
+    height:55%;
+    background-color:#f7f7f7;
+    border-radius: 15px;
+    text-align: center;
+    padding:7%;
+    position:relative;
+    top:10%;
+    left:23%;
+    padding-top: 0%;
+    padding-bottom:15%;
+    
+}
+.smodal-content input :not(.term){
+   width: 60%;
+  padding:3%;
+  margin-top:0%;
+    margin-bottom:0%;
+    background-color:dimgray;
+    border-width:0px;
+    border-radius:5%;
+   
+}
+
+.modal-content img {
+    padding-top:5%;
+    padding-bottom: 5%;
+    opacity:.7;
+}
+
+.smodal-content img {
+    
+    width:50%;
+    position:relative;
+    top:0%;
+    left:3%;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+
+.smodal-content .enterb {
+    margin-top:0;
+}
+
+.enterb {
+    width:50%;
+    margin: 5%;
+    padding:2%;
+    font-size:15pt;
+    background-color:darkslateblue;
+    color:aliceblue;
+    border:0;
+    border-radius: 3%;
+    
+}
+.enterb:hover{
+    background-color:coral;
+}
+
+.bg-modal input,.sign-modal input{
+   width: 70%;
+  padding:3%;
+  margin-top:0%;
+    margin-bottom:3%;
+    background-color:whitesmoke;
+    border-width:0px;
+    border-radius:5%;
+}
+
+
+
+    
+.close a{
+    position: absolute;
+    top:0;
+    right:3%;
+    font-size: 44pt;
+    color:gray;
+    transform: rotate(45deg);
+    cursor: pointer;
+    text-decoration: none;
+}
+.forget {
+    color:chocolate;
+    
+}
+
+.forget a {
+    text-decoration: none;
+    
+}
+
+.forget a:hover{
+    
+    color:cornflowerblue;
+}
+
+/* log in */
+
+
+
+
+
+
+
+
+
+
+
+/* GALLERY*/
+* {
+  box-sizing: border-box;
+}
+.paragraph{
+text-align: center;
+font-family:serif;
+font-size:30px;
+padding-bottom:20px;
+padding-left: 20px;
+padding-right: 20px;
+  padding-bottom: 5%;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-left: 300px;
+}
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row { 
+  display: flexbox;
+  flex-direction: inline;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.footer, .push {
+    height: 155px; /* .push must be the same height as .footer */
+}
